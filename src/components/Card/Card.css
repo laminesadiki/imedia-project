@@ -1,0 +1,29 @@
+.listOfcards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    height: 200px;
+    width: 350px;
+    border: 1px solid black;
+    margin: 5px;
+}
+
+.card__leftSide {
+    /* flex: 1; */
+}
+
+.img__card {
+    height: 200px;
+}
+
+.card__buttons {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
